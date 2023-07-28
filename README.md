@@ -2,6 +2,8 @@
 
 ###### Wenda Zhang, Zichen Ma, Lianming Wang, Daping Fan, Yen-Yi Ho
 
+This repository contains files R files in Zhang et al. (under revision, *Statistics in Medicine*). A tutorial with example for using the R functions can be found [here](https://zichenm.github.io/GeneCoExpressionSPSL/).
+
 #### Documents
 
 The `docs` folder includes the following files:
