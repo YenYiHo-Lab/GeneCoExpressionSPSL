@@ -18,7 +18,7 @@ set.seed(10)
 
 ### 1. Introduction
 
-This document provides a tutorial for the R functions `spsl()` and `cspsl()` that fit the spike-and-slab model (SPSL) and the correlated spike-and-slab model (C-SPSL), respectively, in analyzing gene co-expression patterns. The methods are based on Zhang et al. (2023). Given a set of gene expression data, traditional methods for gene co-expression analysis such as the conditional normal model proposed in Ho et al. (2011) require exhaustive search across all pairs of genes, which may be expensive when the set of genes is large. SPSL and C-SPSL utilize the spike-and-slab prior from Bayesian variable selection.
+This document provides a tutorial for the R functions `spsl()` and `cspsl()` that fit the spike-and-slab model (SPSL) and the correlated spike-and-slab model (C-SPSL), respectively, in analyzing gene co-expression patterns. The methods are based on Zhang et al. (under revision, *Statistics in Medicine*). Given a set of gene expression data, traditional methods for gene co-expression analysis such as the conditional normal model proposed in Ho et al. (2011) require exhaustive search across all pairs of genes, which may be expensive when the set of genes is large. SPSL and C-SPSL utilize the spike-and-slab prior from Bayesian variable selection. 
 
 ### 2. Example
 
